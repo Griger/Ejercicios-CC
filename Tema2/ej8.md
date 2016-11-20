@@ -36,10 +36,4 @@ Vagrant.configure("2") do |config|
     path: "scriptApache.sh"
 end
 ```
-aquí hemos cambiado la provisión que hacíamos de Apache mediante un comando shell por la ejecución de un script de shell que se va a encargar de instalar apache en caso de ser necesario así como crear un par de directorios que pueden ser de utilidad para el despliegue de una web en Apache:
-
-```shell
-apt-get -y install apache2
-mkdir -p /var/www/nameit.com/public_html
-mkdir /var/www/nameit.com/logs
-```
+aquí hemos cambiado la provisión que hacíamos de Apache mediante un comando shell por la ejecución de un [script de shell](scriptApache.sh) que se va a encargar de instalar apache en caso de ser necesario así como crear un par de directorios que pueden ser de utilidad para el despliegue de una web en Apache.

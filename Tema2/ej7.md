@@ -2,4 +2,4 @@ En el [ejercicio 2](ej2.md) ya hemos instalado una máquina virtual tipo Debian;
 
 ![Conexión SHH](img/conexionSSHVagrant.png)
 
-Las primeras líneas que observamos en la captura anterior se corresponden a mensajes de salida del comando `vagrant up` con el que "arrancamos" la máquina virtual desde el directorio donde esté el archivo *Vagrantfile* configurado para dicha máquina virtual.
+Las primeras líneas que observamos en la captura anterior se corresponden a mensajes de salida del comando `vagrant up` con el que "arrancamos" la máquina virtual desde el directorio donde esté el archivo *Vagrantfile* configurado para dicha máquina virtual. 
